@@ -3,17 +3,6 @@ require 'utils'
 require 'options'
 require 'mappings'
 
--- Allow misspellings
-cmd(':command! WQ wq')
-cmd(':command! WQ wq')
-cmd(':command! Wq wq')
-cmd(':command! Wqa wqa')
-cmd(':command! W w')
-cmd(':command! Q q')
-
-
-
-
 -- luasnip setup
 local luasnip = require 'luasnip'
 

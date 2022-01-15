@@ -28,3 +28,11 @@ nmap('<C-h>', '<C-w>h')
 nmap('<C-j>', '<C-w>j')
 nmap('<C-k>', '<C-w>k')
 nmap('<C-l>', '<C-w>l')
+
+-- Allow misspellings
+cmd(':command! WQ wq')
+cmd(':command! WQ wq')
+cmd(':command! Wq wq')
+cmd(':command! Wqa wqa')
+cmd(':command! W w')
+cmd(':command! Q q')
