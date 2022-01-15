@@ -7,7 +7,8 @@ local options = {
   --Case insensitive searching UNLESS /C or capital in search
   ignorecase = true,
   smartcase = true,
-  
+
+  -- Tabs
   expandtab = true,
   tabstop = 2,
   softtabstop = 2,
@@ -17,7 +18,7 @@ local options = {
   updatetime = 250, --Decrease update time
   termguicolors = true,
   -- Set completeopt to have a better completion experience
-  completeopt = 'menuone,noselect' 
+  completeopt = 'menuone,noselect'
 }
 
 
@@ -50,9 +51,9 @@ set_options(vim.wo, window_options)
 set_options(vim.bo, buffer_options)
 
 -- Load the colorscheme
--- cmd [[colorscheme onedark]]
+cmd [[colorscheme onedark]]
 -- cmd [[colorscheme nord]]
-cmd [[colorscheme tokyodark]]
+-- cmd [[colorscheme tokyodark]]
 
 -- Highlight on yank
 cmd [[

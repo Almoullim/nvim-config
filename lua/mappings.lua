@@ -10,14 +10,13 @@ nmap('k', "v:count == 0 ? 'gk' : 'k'", { noremap = true, expr = true, silent = t
 nmap('j', "v:count == 0 ? 'gj' : 'j'", { noremap = true, expr = true, silent = true })
 
 -- Telescope
-lmap('<space>', [[<cmd>lua require('telescope.builtin').buffers()<CR>]])
-lmap('sf', [[<cmd>lua require('telescope.builtin').find_files({previewer = false})<CR>]])
+lmap('b', [[<cmd>lua require('telescope.builtin').buffers()<CR>]])
+lmap('f', [[<cmd>lua require('telescope.builtin').find_files()<CR>]])
 lmap('sb', [[<cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<CR>]])
-lmap('sh', [[<cmd>lua require('telescope.builtin').help_tags()<CR>]])
-lmap('st', [[<cmd>lua require('telescope.builtin').tags()<CR>]])
-lmap('sd', [[<cmd>lua require('telescope.builtin').grep_string()<CR>]])
-lmap('sp', [[<cmd>lua require('telescope.builtin').live_grep()<CR>]])
-lmap('so', [[<cmd>lua require('telescope.builtin').tags{ only_current_buffer = true }<CR>]])
+-- lmap('sh', [[<cmd>lua require('telescope.builtin').help_tags()<CR>]])
+lmap('sw', [[<cmd>lua require('telescope.builtin').grep_string()<CR>]])
+lmap('sg', [[<cmd>lua require('telescope.builtin').live_grep()<CR>]])
+lmap('st', [[<cmd>lua require('telescope.builtin').tags{ only_current_buffer = true }<CR>]])
 lmap('?', [[<cmd>lua require('telescope.builtin').oldfiles()<CR>]])
 
 -- Fern

@@ -4,15 +4,16 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-['<S-Tab>'] 	init.lua	/^    ['<S-Tab>'] = function(fallback)$/;"	f
-['<Tab>'] 	init.lua	/^    ['<Tab>'] = function(fallback)$/;"	f
+['<S-Tab>'] 	lua/plugins/nvim-cmp.lua	/^    ['<S-Tab>'] = function(fallback)$/;"	f
+['<Tab>'] 	lua/plugins/nvim-cmp.lua	/^    ['<Tab>'] = function(fallback)$/;"	f
 ['[M'] 	lua/plugins/nvim-treesitter.lua	/^        ['[M'] = '@function.outer',$/;"	f
 ['[m'] 	lua/plugins/nvim-treesitter.lua	/^        ['[m'] = '@function.outer',$/;"	f
 [']M'] 	lua/plugins/nvim-treesitter.lua	/^        [']M'] = '@function.outer',$/;"	f
 [']m'] 	lua/plugins/nvim-treesitter.lua	/^        [']m'] = '@function.outer',$/;"	f
 ['af'] 	lua/plugins/nvim-treesitter.lua	/^        ['af'] = '@function.outer',$/;"	f
 ['if'] 	lua/plugins/nvim-treesitter.lua	/^        ['if'] = '@function.inner',$/;"	f
-expand 	init.lua	/^    expand = function(args)$/;"	f
+['sumneko_lua'] 	lua/plugins/lsp-installer.lua	/^  ['sumneko_lua'] = function(opts)$/;"	f
+expand 	lua/plugins/nvim-cmp.lua	/^    expand = function(args)$/;"	f
 fn 	lua/utils.lua	/^fn = vim.fn    -- to call Vim functions e.g. fn.bufnr()$/;"	f
 if vim.api.nvim_call_function('has', {'nvim-0.5'}) ~	plugin/packer_compiled.lua	/^if vim.api.nvim_call_function('has', {'nvim-0.5'}) ~= 1 then$/;"	f
 imap 	lua/utils.lua	/^imap = function(key, cmd, options)$/;"	f
@@ -20,7 +21,7 @@ imapb 	lua/utils.lua	/^imapb = function(bufrn, key, cmd, options)$/;"	f
 lmap 	lua/utils.lua	/^lmap = function(key, cmd, options)$/;"	f
 lmapb 	lua/utils.lua	/^lmapb = function(bufrn, key, cmd, options)$/;"	f
 local no_errors, error_msg 	plugin/packer_compiled.lua	/^local no_errors, error_msg = pcall(function()$/;"	f
-local on_attach 	lua/plugins/lspconfig.lua	/^local on_attach = function(_, bufnr)$/;"	f
+local on_attach 	lua/plugins/lsp-installer.lua	/^local on_attach = function(_, bufnr)$/;"	f
 nmap 	lua/utils.lua	/^nmap = function(key, cmd, options)$/;"	f
 nmapb 	lua/utils.lua	/^nmapb = function(bufrn, key, cmd, options)$/;"	f
 s:init_fern	lua/plugins/fern.lua	/^function! s:init_fern() abort$/;"	f
