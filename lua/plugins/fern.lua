@@ -24,6 +24,3 @@ augroup fern-custom
   autocmd FileType fern call s:init_fern()
 augroup END
 ]]
-
-
--- nmap <buffer><nowait> <Enter> <Plug>(fern-my-expand-or-collapse)
