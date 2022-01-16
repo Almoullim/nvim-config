@@ -49,7 +49,7 @@ local enhance_server_opts = {
     local runtime_path = vim.split(package.path, ';')
     table.insert(runtime_path, "lua/?.lua")
     table.insert(runtime_path, "lua/?/init.lua")
-    opts.cmd = { "/home/ali/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/bin/lua-language-server" }
+    opts.cmd = { os.getenv("HOME") .. "/.local/share/nvim/lsp_servers/sumneko_lua/extension/server/bin/lua-language-server" }
     opts.settings = {
       Lua = {
         runtime = {
