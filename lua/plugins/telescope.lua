@@ -1,7 +1,7 @@
 
  require('telescope').setup {
    defaults = {
-     file_ignore_patterns = {"node_modules"},
+     file_ignore_patterns = {"node_modules", ".git", "tags"},
      vimgrep_arguments = {
        'rg',
        '--color=never',
@@ -10,6 +10,7 @@
        '--line-number',
        '--column',
        '--smart-case',
+       '--glob=!{git,tags}/?*',
        '--ignore-file',
        '.gitignore'
      },

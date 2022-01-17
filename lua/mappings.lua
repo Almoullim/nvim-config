@@ -16,7 +16,7 @@ lmap('sb', [[<cmd>lua require('telescope.builtin').current_buffer_fuzzy_find()<C
 -- lmap('sh', [[<cmd>lua require('telescope.builtin').help_tags()<CR>]])
 lmap('sw', [[<cmd>lua require('telescope.builtin').grep_string()<CR>]])
 lmap('sg', [[<cmd>lua require('telescope.builtin').live_grep()<CR>]])
-lmap('st', [[<cmd>lua require('telescope.builtin').tags{ only_current_buffer = true }<CR>]])
+-- lmap('st', [[<cmd>lua require('telescope.builtin').tags{ only_current_buffer = true }<CR>]])
 lmap('?', [[<cmd>lua require('telescope.builtin').oldfiles()<CR>]])
 
 -- Fern
